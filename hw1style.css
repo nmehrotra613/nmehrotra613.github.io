@@ -1,13 +1,16 @@
+/* Overriding Bootstrap Element #1: Jumbotron. Updating image and height of jumbotron */
 .jumbotron{
     height: 500px;
     background-image: url(IDEA\ Week\ Header.jpeg);
     background-size: cover;
 }
 
+/* Overriding Bootstrap Element #2: Card. Removing border */
 .card{
     border: none;
 }
 
+/* Overriding Bootstrap Element #3: Navigation Bar. Changing font size and text font */
 .navbar{
     font-family: 'Cormorant Garamond', serif;
     font-size: 16pt;
